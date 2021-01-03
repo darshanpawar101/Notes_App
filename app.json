@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Notes",
+    "slug": "note",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.pawar.notes",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android":{
+      "package":"com.pawar.notes",
+      "versionCode":1,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-4169681870908265~9623862205"
+      }
+    }
+    
+  }
+}
